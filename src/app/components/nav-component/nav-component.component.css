@@ -1,5 +1,6 @@
 .navigation {
   height: 50px;
+  display: inline-flex;
   animation-name: navegacao;
   animation-duration: 3s;
 }
@@ -31,9 +32,12 @@
 
 .nav-logo {
   width: 100px;
+  display: inline;
+  float: left;
   animation-name: navegacao;
   animation-duration: 3s;
 }
+
 .navigation .three-line-button {
   display: none;
 }
