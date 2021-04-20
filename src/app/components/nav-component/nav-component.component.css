@@ -1,0 +1,53 @@
+.navigation {
+  height: 50px;
+  animation-name: navegacao;
+  animation-duration: 3s;
+}
+
+.navigation li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 50px; /*o texto é automaticamente e verticalmente alinhado no centro da linha*/
+  font-size: 18px;
+  color: #dee7e7;
+}
+
+.navigation a {
+  color: #dee7e7;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #8b0000;
+}
+
+.navigation ul {
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+
+.nav-logo {
+  width: 100px;
+  animation-name: navegacao;
+  animation-duration: 3s;
+}
+.navigation .three-line-button {
+  display: none;
+}
+
+@keyframes navegacao {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
